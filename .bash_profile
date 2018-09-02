@@ -8,6 +8,7 @@ alias vim='vim -u /home/jales/.vimrc'
 alias ll='ls -alhG'
 HNAME=`hostname -s`
 PROMPT_COMMAND='echo -ne "\033]0;${HNAME}\a"'
+HISTTIMEFORMAT="%d/%m/%y %T: "
 # export LSCOLORS="exCxacaeCxahagaFaGExEx";
 export LSCOLORS="fxcxexdxbxegedabagacad";
 if [ `id -u` -gt 0 ]; then
