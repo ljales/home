@@ -1,10 +1,10 @@
 PAGER=less;     export PAGER
 EDITOR=vim;     export EDITOR
-alias root='sudo bash --rcfile /Users/lewis.jales-huggins/.bash_profile'
-alias chgit='sudo -ugit bash --rcfile /Users/lewis.jales-huggins/.bash_profile'
+alias root='sudo bash --rcfile /home/jales/.bash_profile'
+alias chgit='sudo -ugit bash --rcfile /home/jales/.bash_profile'
 alias grep='grep --color'
 alias ssh='ssh -A'
-alias vim='vim -u /Users/lewis.jales-huggins/.vimrc'
+alias vim='vim -u /home/jales/.vimrc'
 alias ll='ls -alhG'
 HNAME=`hostname -s`
 PROMPT_COMMAND='echo -ne "\033]0;${HNAME}\a"'
